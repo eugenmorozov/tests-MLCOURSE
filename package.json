@@ -1,0 +1,24 @@
+{
+  "name": "calc-tests-mlcourse",
+  "version": "1.0.0",
+  "description": "simple realisation of calculator with unit-testing",
+  "main": "calculator/index.js",
+  "scripts": {
+    "test": "nyc mocha --compilers js:babel-core/register ./test/**/*.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "jest": "^23.6.0",
+    "nyc": "^13.0.1"
+  }
+}
