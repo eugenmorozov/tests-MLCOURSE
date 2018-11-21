@@ -10,13 +10,6 @@ export class Calculator{
         return Number.NaN;
     }
 
-    static res (arg1, arg2){
-        if(this.isNumber(arg1) && this.isNumber(arg2)) {
-            return arg1 - arg2;
-        }
-        return Number.NaN;
-    }
-
     static div (arg1, arg2){
         if(this.isNumber(arg1) && this.isNumber(arg2)) {
             console.log(arg1/arg2);
